@@ -1,10 +1,13 @@
 <script setup>
+  import Title from '@/components/Title.vue';
+  import CreatureList from '@/components/CreatureList.vue';
+
 </script>
 
 <template>
-  <main>
-    <div class="rounded">
-      <h1 class=" text-4xl font-bold text-center text-gray-900">Toutos Guide to Run a Encounter</h1>
-    </div>
+  <main class="mt-10 ml-10 mr-10">
+    <Title title="TOUTOS GUIDE TO COMBAT"/>
+    <h2 class="text-golden text-xl mt-10">CREATURES</h2>
+    <CreatureList/>
   </main>
 </template>
