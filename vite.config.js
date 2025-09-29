@@ -13,5 +13,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: 'https://gustavo-qs.github.io/toutos_guide/'
+  base: '/toutos_guide/'
 })
