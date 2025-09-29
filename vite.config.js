@@ -13,5 +13,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: process.env.NODE_ENV === 'production' ? '/toutos_guide/' : '/'
+  base: 'https://gustavo-qs.github.io/toutos_guide/'
 })
